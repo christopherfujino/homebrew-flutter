@@ -1,4 +1,4 @@
-class Libplist < Formula
+class LibplistFlutter < Formula
   desc "Library for Apple Binary- and XML-Property Lists"
   homepage "https://www.libimobiledevice.org/"
   url "https://www.libimobiledevice.org/downloads/libplist-2.0.0.tar.bz2"
@@ -13,7 +13,8 @@ class Libplist < Formula
   end
 
   head do
-    url "https://git.sukimashita.com/libplist.git"
+    #url "https://git.sukimashita.com/libplist.git"
+    url "https://github.com/christopherfujino/libplist.git"
 
     depends_on "autoconf" => :build
     depends_on "automake" => :build
