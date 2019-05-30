@@ -1,8 +1,6 @@
-# Homebrew Core
+# Flutter Homebrew Tap
 
-Core formulae for the Homebrew package manager.
-
-Core formulae for the Linuxbrew package manager (Homebrew on Linux or Windows 10 Subsystem for Linux) are in [Homebrew/linuxbrew-core](https://github.com/Homebrew/linuxbrew-core).
+These are custom Homebrew formulae used for building packages to be distributed with the [Flutter](https://flutter.dev) application framework.
 
 ## How do I install these formulae?
 
