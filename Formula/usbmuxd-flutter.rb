@@ -1,4 +1,4 @@
-class Usbmuxd < Formula
+class UsbmuxdFlutter < Formula
   desc "USB multiplexor daemon for iPhone and iPod Touch devices"
   homepage "https://www.libimobiledevice.org/"
   revision 1
