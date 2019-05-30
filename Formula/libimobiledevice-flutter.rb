@@ -15,6 +15,7 @@ class LibimobiledeviceFlutter < Formula
   depends_on "libplist-flutter"
   depends_on "libtasn1"
   depends_on "usbmuxd-flutter"
+  depends_on "openssl-flutter"
 
   def install
     system "./autogen.sh" if build.head?
