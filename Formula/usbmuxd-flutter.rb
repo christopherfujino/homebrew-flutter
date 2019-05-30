@@ -25,7 +25,7 @@ class UsbmuxdFlutter < Formula
   end
 
   head do
-    url "https://github.com/christopherfujino/libusbmuxd"
+    url "https://github.com/christopherfujino/libusbmuxd.git"
     #url "https://git.sukimashita.com/libusbmuxd.git"
 
     depends_on "autoconf" => :build
