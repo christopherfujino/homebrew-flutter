@@ -1,12 +1,9 @@
 class LibplistFlutter < Formula
   desc "Library for Apple Binary- and XML-Property Lists"
   homepage "https://www.libimobiledevice.org/"
-  #url "https://www.libimobiledevice.org/downloads/libplist-2.0.0.tar.bz2"
-  #sha256 "3a7e9694c2d9a85174ba1fa92417cfabaea7f6d19631e544948dc7e17e82f602"
   revision 1
 
   head do
-    #url "https://git.sukimashita.com/libplist.git"
     url "https://github.com/christopherfujino/libplist.git"
 
     depends_on "autoconf" => :build
