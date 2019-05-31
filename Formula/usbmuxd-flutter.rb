@@ -14,7 +14,7 @@ class UsbmuxdFlutter < Formula
 
   depends_on "pkg-config" => :build
   depends_on "libplist-flutter"
-  depends_on "libusb"
+  depends_on "libusb-flutter"
 
   def install
     system "./autogen.sh" if build.head?
