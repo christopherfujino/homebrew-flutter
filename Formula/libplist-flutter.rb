@@ -4,8 +4,8 @@ class LibplistFlutter < Formula
   revision 1
 
   head do
-    url "https://github.com/christopherfujino/libplist.git"
-    #url "git://partner-code.googlesource.com/libplist.git"
+    #url "https://github.com/christopherfujino/libplist.git"
+    url "https://partner-code.googlesource.com/libplist.git"
 
     depends_on "autoconf" => :build
     depends_on "automake" => :build
